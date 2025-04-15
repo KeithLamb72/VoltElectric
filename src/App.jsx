@@ -1,3 +1,4 @@
+import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
 
 export default function App() {//Nav Bar Shown on Top for home page
