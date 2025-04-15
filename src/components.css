@@ -1,0 +1,250 @@
+/* Hero section */
+/*The `components.css` file defines styles for various sections of a webpage, including the hero, services, features, testimonials, FAQ, and contact sections.
+It also includes styles for buttons, forms, and a mobile call button.
+ The file uses responsive design principles, such as grid layouts and media queries, to ensure the design adapts to different screen sizes.*/
+.hero {
+    background-color: #0047AB;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .primary-button {
+    background-color: #FFD700;
+    color: #0047AB;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  .secondary-button {
+    background-color: white;
+    color: #0047AB;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  /* Services section */
+  .services-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .service-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-title {
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    margin-bottom: 15px;
+  }
+  
+  .service-link {
+    color: #0047AB;
+    font-weight: 500;
+  }
+  
+  /* Features section */
+  .features-section {
+    padding: 60px 0;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Testimonials section */
+  .testimonials-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .testimonial-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .star-rating {
+    color: #FFD700;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+  }
+  
+  /* FAQ section */
+  .faq-section {
+    padding: 60px 0;
+  }
+  
+  .faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .view-more {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .view-more-link {
+    color: #0047AB;
+    font-weight: 500;
+  }
+  
+  /* Contact section */
+  .contact-section {
+    background-color: #0047AB;
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .form-input, .form-textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .form-submit {
+    text-align: center;
+  }
+  
+  .submit-button {
+    background-color: #FFD700;
+    color: #0047AB;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Mobile call button */
+  .call-button-mobile {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+  
+  .call-now-button {
+    display: flex;
+    align-items: center;
+    background: #FFD700;
+    color: #0047AB;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .call-icon {
+    margin-right: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .form-row {
+      grid-template-columns: 1fr;
+    }
+  }
