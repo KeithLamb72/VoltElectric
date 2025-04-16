@@ -1,3 +1,5 @@
+@import './components.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,4 +22,3 @@ body {
   min-height: 100vh;
 }
 
-@import './components.css';
