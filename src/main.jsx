@@ -9,8 +9,8 @@ import FAQ from './pages/FAQ.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 
-import './index.css'
-import './App.css'
+import './index.css'; // Tailwind CSS
+import './App.css';   // Additional custom styles
 // This is the main entry point of the React application
 // It uses React Router for navigation between different pages
 // It renders the main App component and sets up the routing for the application

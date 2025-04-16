@@ -9,6 +9,11 @@ It also includes styles for buttons, forms, and a mobile call button.
     text-align: center;
   }
   
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
   .container {
     width: 100%;
     max-width: 1200px;
